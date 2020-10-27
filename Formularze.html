@@ -1,0 +1,57 @@
+<! DOCTYPE html >
+< html >
+ < głowa >
+  < meta  charset = " utf-8 " />
+  < title > Formularze </ title >
+ </ head >
+ < body >
+< form  action = " http://www.google.pl/search "
+  method = " get " >
+< input  type = " text " name = " q " value = " war. domyślna "
+size = " 25 " maxlength = " 20 " />
+< select  name = " sitesearch " size = " 2 " >
+  < option  value = "" > Internet </ option >
+    < optgroup  label = " domena: " >
+  < option  value = " plotkarka.eu " > PLOTKARKA.EU </ option >
+  < option  value = " www.w3.org " > W3C </ option >
+  </ optgroup >
+ </ select >
+   < p > Język:
+   < input  type = " radio " name = " lr " value = " lang_pl " />
+   polski
+   < input  type = " radio " name = " lr " value = " lang_de " />
+   niemiecki
+   < input  type = " radio " name = " lr " value = ""
+     zaznaczone = " zaznaczone " />
+	 dowolny
+	 < input  type = " checkbox " name = " safe " /> Filtr
+   </ p >
+   < input  type = " submit " value = " Szukaj " />
+   < button  type = " reset " name = " reset " >
+  < b > Wyczyść ustawienia </ b >
+ </ przycisk >
+ < form  method = " post " action = " mailto: nazwa @ domena " >
+   < P > imię: < br /> < wejście  typu = " text " nazwa =" imie " /> </ p >
+   < P > Temat: < br /> < wejście  typu = " text " nazwa =" Temat " /> </ p >
+   < P > Wiadomość: < br />
+    < textarea  name = " wiadomosc " > </ textarea >
+   </ p >
+   < input  type = " submit " value = " Wyślij " />
+  </ form >
+</ form >
+< formularz
+ action = " http://translate.google.pl/translate_t "
+ method = " get " >
+   < textarea  name = " q " rows = " 5 " cols = " 30 " >
+   Miejsce na tekst
+   </ textarea >
+   < div >
+   < input  type = " checkbox " name = " sl " value = " pl " />
+ polski
+   < input  type = " checkbox " name = " sl " value = " auto " />
+ wykryj język
+   </ div >
+   < input  type = " submit " value = " tłumacz " />
+  </ form >
+ </ body >
+</ html >
